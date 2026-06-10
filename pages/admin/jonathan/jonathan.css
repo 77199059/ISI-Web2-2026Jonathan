@@ -1,0 +1,95 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.page-shell {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Separa la tarjeta de arriba de la tabla de abajo */
+}
+
+.hero-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border-left: 5px solid #0056b3; /* Detalle azul de sistemas a la izquierda */
+}
+
+.hero-copy h1 {
+    margin: 5px 0;
+    font-size: 2rem;
+    color: #111;
+}
+
+.eyebrow {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: #0056b3;
+    font-weight: bold;
+    margin: 0;
+}
+
+.subtitle {
+    color: #666;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+.delete-panel {
+    background-color: #e8f0fe; /* Fondo azul sutil de información / consulta */
+    border: 1px solid #b4cffc;  /* Borde azul suave */
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.delete-panel label {
+    display: block;
+    font-weight: 600;
+    color: #1a73e8; /* Texto azul informativo */
+    margin-bottom: 8px;
+}
+
+.delete-controls {
+    display: flex;
+    gap: 10px;
+}
+
+/* Inputs y botones básicos */
+.delete-controls input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.delete-controls input:focus {
+    outline: none;
+    border-color: #1a73e8; /* Resalta en azul al escribir */
+}
+
+.delete-controls button {
+    background-color: #1a73e8; /* Azul tecnológico de búsqueda (Google Style) */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.delete-controls button:hover {
+    background-color: #1557b0; /* Azul más oscuro al pasar el mouse */
+}
