@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabajo en clase</title>
+    <title>Lista de Equipos</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,15 +11,15 @@
         <section class="hero-card">
             <div class="hero-copy">
                 <p class="eyebrow">Administración de equipos</p>
-                <h1>Trabajo en la clase</h1>
-                <p class="subtitle">Conexión de eliminar y listado de equipos.</p>
+                <h1>Lista de Equipos</h1>
+                <p class="subtitle">Conexión de obtener y listado de equipos.</p>
             </div>
 
             <form class="delete-panel">
                 <label for="teamId">ID del equipo para obtener</label>
                 <div class="delete-controls">
                     <input type="text" id="teamId" name="teamId" placeholder="Escribe el ID">
-                    <button id="deleteTeamButton" type="button">Obtener equipo</button>
+                    <button id="searchTeamButton" type="button">Obtener equipo</button>
                 </div>
             </form>
         </section>
@@ -43,6 +43,6 @@
     </div>
 </section>
     </main>
-    <script type="module" src="get.js"></script>
+    <script type="module" src="teams.js"></script>
 </body>
 </html>
